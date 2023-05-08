@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <div id="mask"></div>
     <header>
         <div class="topAd-group swiper mySwiper">
             <div class="swiper-wrapper">
@@ -39,24 +40,24 @@
         </div>
         <div class="header-group">
             <div class="menu-area">
-                <div class="ico-ham">
+                <a href="" class="ico-ham">
                     <img src="./assets/img/ico-ham.svg" alt="">
-                </div>
-                <div class="ico-search">
+                </a>
+                <a href="" class="ico-search">
                     <img src="./assets/img/ico-search.png" alt="">
-                </div>
+                </a>
             </div>
             <h1 class="logo">
                 <img src="./assets/img/logo_w.svg" alt="">
                 <span class="blind">로고</span>
             </h1>
             <div class="my-area">
-                <div class="ico-cart">
+                <a href="" class="ico-cart">
                     <img src="./assets/img/ico-cart.svg" alt="">
-                </div>
-                <div class="ico-myPage">
+                </a>
+                <a href="" class="ico-myPage">
                     <img src="./assets/img/ico-my.svg" alt="">
-                </div>
+                </a>
             </div>
         </div>
         <div class="hideTab-group hide">
@@ -127,63 +128,165 @@
         </div>
         <div class="aside-group">
             <div class="asideTop-area">
-                <div class="member-wrap">
-                    <a href="" class="login">로그인</a>
-                    <a href="" class="join">회원가입</a>
-                </div>
-                <div class="close"></div>
+               <div class="member-wrap">
+                 <div class="member-box">
+                     <a href="" class="login">로그인</a>
+                     <a href="" class="join">회원가입</a>
+                 </div>
+                 <a href="" class="close"><i class="ri-close-line"></i></a>
+               </div>
                 <p>로그인 하고, <strong>회원 전용 혜택 </strong>확인하기</p>
             </div>
             <div class="asideContents-area">
                 <ul class="category-list">
-                    <li class="category-item">봄 신상</li>
-                    <li class="category-item">봄 신상</li>
-                    <li class="category-item">봄 신상</li>
-                    <li class="category-item">봄 신상</li>
-                    <li class="category-item">봄 신상</li>
-                    <li class="category-item">봄 신상</li>
-                    <li class="category-item">봄 신상</li>
-                    <li class="category-item">봄 신상</li>
-                    <li class="category-item">봄 신상</li>
-                    <li class="category-item">봄 신상</li>
-                    <li class="category-item">봄 신상</li>
-                    <li class="category-item">봄 신상</li>
+                    <li class="category-item">
+                        <a href="" class="nav-box"><span class="new-dot">봄 신상</span></a>
+                        <ul class="item-sub">
+                            <li><a href="">전체</a></li>
+                            <li><a href="">우먼즈</a></li>
+                            <li><a href="">우먼즈 신상 추천</a></li>
+                            <li><a href="">맨즈</a></li>
+                            <li><a href="">맨즈 신상 추천</a></li>
+                        </ul>
+                    </li>
+                    <li class="category-item ">
+                        <a href="" class="nav-box">베스트</a>
+                        <ul class="item-sub">
+                            <li><a href="">전체</a></li>
+                            <li><a href="">우먼즈</a></li>
+                            <li><a href="">맨즈</a></li>
+                            <li><a href="">홈트용품 & 악세서리</a></li>
+                        </ul>
+                    </li>
+                    <li class="category-item">
+                        <a href="" class="nav-box">우먼즈</a>
+                        <ul class="item-sub">
+                            <li><a href="">전체</a></li>
+                            <li><a href="">하의</a></li>
+                            <li><a href="">상의</a></li>
+                            <li><a href="">레깅스</a></li>
+                            <li><a href="">조거팬츠</a></li>
+                            <li><a href="">티셔츠</a></li>
+                            <li><a href="">원피스 & 스커트</a></li>
+                            <li><a href="">스포츠 브라탑</a></li>
+                            <li><a href="">아우터</a></li>
+                            <li><a href="">세트</a></li>
+                            <li><a href="">운동별 추천</a></li>
+                        </ul>
+                    </li>
+                    <li class="category-item">
+                        <a href="" class="nav-box">맨즈</a>
+                        <ul class="item-sub">
+                            <li><a href="">전체</a></li>
+                            <li><a href="">하의</a></li>
+                            <li><a href="">상의</a></li>
+                            <li><a href="">티셔츠</a></li>
+                            <li><a href="">슬랙스</a></li>
+                            <li><a href="">조거팬츠</a></li>
+                            <li><a href="">청바지</a></li>
+                            <li><a href="">A.R.M</a></li>
+                            <li><a href="">애슬레저 비즈니스웨어</a></li>
+                            <li><a href="">아우터</a></li>
+                            <li><a href="">세트</a></li>
+                        </ul>
+                    </li>
+                    <li class="category-item">
+                        <a href="" class="nav-box none"><span class="new-dot">테니스</span></a>
+                    </li>
+                    <li class="category-item">
+                        <a href="" class="nav-box none"><span class="new-dot">A.R.M</span></a>
+                    </li>
+                    <li class="category-item">
+                        <a href="" class="nav-box none">릴레어</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="" class="nav-box">요기니 요가복</a>
+                        <ul class="item-sub">
+                            <li><a href="">전체</a></li>
+                            <li><a href="">하의</a></li>
+                            <li><a href="">상의</a></li>
+                            <li><a href="">용품</a></li>
+                        </ul>
+                    </li>
+                    <li class="category-item">
+                        <a href="" class="nav-box">홈트용품 & 액세서리</a>
+                        <ul class="item-sub">
+                            <li><a href="">전체</a></li>
+                            <li><a href="">홈트용품</a></li>
+                            <li><a href="">운동화 & 삭스 & 워머</a></li>
+                            <li><a href="">마스크</a></li>
+                            <li><a href="">모자 & 헤어밴드</a></li>
+                            <li><a href="">가방</a></li>
+                        </ul>
+                    </li>
+                    <li class="category-item">
+                        <a href="" class="nav-box">해외 골프투어</a>   
+                        <ul class="item-sub">
+                            <li><a href="">골프</a></li>
+                            <li><a href="">라운지</a></li>
+                        </ul>
+                    </li>
+                 
                 </ul>
                 <ul class="category-list">
-                    <li class="category-item">EVNET</li>
-                    <li class="category-item">EVNET</li>
-                    <li class="category-item">EVNET</li>
+                    <li class="category-item"><a href="" class="nav-box none">EVNET</a></li>
+                    <li class="category-item"><a href="" class="nav-box">고객지원</a>
+                        <ul class="item-sub">
+                            <li><a href="">자주 묻는 질문</a></li>
+                            <li><a href="">공지사항</a></li>
+                            <li><a href="">강사회원 신청</a></li>
+                            <li><a href="">센터회원 신청</a></li>
+                            <li><a href="">전국 매장 안내</a></li>
+                            <li><a href="">세탁 방법 안내</a></li>
+                        </ul></li>
+                    <li class="category-item"><a href="" class="nav-box">안다르 스토리</a>
+                        <ul class="item-sub">
+                            <li><a href="">안다르 매거진</a></li>
+                            <li><a href="">브랜드 스토리</a></li>
+                        </ul></li>
                 </ul>
                 <ul class="category-event">
+                    <h3>이벤트</h3>
                     <li class="category-item">
-                        <a href="" class="item-box">
-                            <img src="" alt="">
-                            <div class="text-wrap">
-                                <strong>이제는 테니스도 안다르</strong>
-                                <p>환상적인 핏과 기능성</p>
-                            </div>
-                        </a>
-                        <a href="" class="link-all">전체</a>
+                        <img src="./assets/img/event-01.jpg" alt="">
+
+                      <div>
+                          <a href="" class="item-box">
+                              <div class="text-wrap">
+                                  <strong>8주년 브랜드 페스티벌</strong>
+                                  <p>UP TO 80%부터 최대 33만원 혜택까지</p>
+                              </div>
+                          </a>
+                          <a href="" class="link-all">전체<i class="ri-arrow-right-line"></i></a>
+                      </div>
                     </li>
                     <li class="category-item">
-                        <a href="" class="item-box">
-                            <img src="" alt="">
-                            <div class="text-wrap">
-                                <strong>이제는 테니스도 안다르</strong>
-                                <p>환상적인 핏과 기능성</p>
-                            </div>
-                        </a>
-                        <a href="" class="link-all">전체</a>
+                        <img src="./assets/img/event-02.jpg" alt="">
+
+                        <div>
+                            <a href="" class="item-box">
+                                <div class="text-wrap">
+                                    <strong>이제는 테니스도 안다르</strong>
+                                    <p>환상적인 핏과 기능성</p>
+                                </div>
+                            </a>
+                            <a href="" class="link-all">전체<i class="ri-arrow-right-line"></i></a>
+                        </div>
                     </li>
                 </ul>
+                <div class="asidebtm-area">
+                    <a href="" class="link-story">브랜드 스토리</a>
+                    <a href="" class="link-store">전국매장안내</a>
+                </div>
             </div>
-            <div class="asidebtm-area">
-                <a href="" class="link-story"></a>
-                <a href="" class="link-store"></a>
-            </div>
+      
         </div>
-        <div class="search-more">
-            검색바.....누르면보여용
+        <div class="search-more" >
+            <a href="" class="prev"><i class="ri-arrow-left-s-line"></i></a>
+            <div class="search-box">
+                <input type="text" placeholder="검색어를 입력해주세요." onfocus="this.placeholder=''" onblur="this.placeholder='검색어를 입력해주세요.'" >
+                <a href="" class="search"><i class="ri-search-line"></i></a>
+            </div>
         </div>
     </header>
     <main>
@@ -629,7 +732,7 @@
     <script>
         $(function () {
 
-            // 최상단 광고
+            // 최상단 광고 swiper
             var swiper = new Swiper(".mySwiper", {
                 effect: "fade",
                 // autoplay: {
@@ -638,7 +741,7 @@
                 // },
             });
 
-            // 메인 비주얼 
+            // 메인 비주얼 swiper
             var swiper = new Swiper(".mySwiper2", {
                 effect: "fade",
                 loop: true,
@@ -687,6 +790,56 @@
             } else if (curr == 0) {
                 $('.hideTab-group').addClass('hide')
             }
+
+            // 햄버거 메뉴 펼치기
+            $('.ico-ham').click(function(e){
+                e.preventDefault();
+                $('.aside-group').addClass('on')
+                $('#mask').css('display', 'block')
+            })
+
+
+            // 햄버거메뉴 닫기
+            $(document).click(function(e){
+                if ($('header').has(e.target).length == 0){
+                    $('.aside-group').removeClass('on')
+                    $('#mask').css('display', 'none')
+                }
+            })
+
+            $('.close').click(function(e){
+                e.preventDefault()
+                    $('.aside-group').removeClass('on')
+                    $('#mask').css('display', 'none')
+            })
+
+
+            // aside 아코디언 메뉴
+
+            $('.nav-box').click(function(e){
+                e.preventDefault();
+                if($(this).hasClass('on')){
+                    $(this).removeClass('on').siblings('.item-sub').stop().slideUp();
+                }else{
+                    $('.nav-box').removeClass('on').siblings('.item-sub').stop().slideUp();
+                    $(this).addClass('on').siblings('.item-sub').stop().slideDown();
+                }
+            })
+
+            // search icon 클릭시 나타나는 화면
+            $('.ico-search').click(function(e){
+                e.preventDefault();
+                $('.search-more').addClass('on')
+            })
+
+            $('.search-more .prev').click(function(e){
+                e.preventDefault();
+                $('.search-more').removeClass('on')
+            })
+
+
+
+
 
 
         })
