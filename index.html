@@ -41,9 +41,11 @@
         <div class="header-group">
             <div class="menu-area">
                 <a href="" class="ico-ham">
+                    <span class="blind">메뉴</span>
                     <img src="./assets/img/ico-ham.svg" alt="">
                 </a>
                 <a href="" class="ico-search">
+                    <span class="blind">검색</span>
                     <img src="./assets/img/ico-search.png" alt="">
                 </a>
             </div>
@@ -53,9 +55,11 @@
             </h1>
             <div class="my-area">
                 <a href="" class="ico-cart">
+                    <span class="blind">장바구니</span>
                     <img src="./assets/img/ico-cart.svg" alt="">
                 </a>
                 <a href="" class="ico-myPage">
+                    <span class="blind">마이페이지</span>
                     <img src="./assets/img/ico-my.svg" alt="">
                 </a>
             </div>
@@ -128,13 +132,13 @@
         </div>
         <div class="aside-group">
             <div class="asideTop-area">
-               <div class="member-wrap">
-                 <div class="member-box">
-                     <a href="" class="login">로그인</a>
-                     <a href="" class="join">회원가입</a>
-                 </div>
-                 <a href="" class="close"><i class="ri-close-line"></i></a>
-               </div>
+                <div class="member-wrap">
+                    <div class="member-box">
+                        <a href="" class="login">로그인</a>
+                        <a href="" class="join">회원가입</a>
+                    </div>
+                    <a href="" class="close"><i class="ri-close-line"></i></a>
+                </div>
                 <p>로그인 하고, <strong>회원 전용 혜택 </strong>확인하기</p>
             </div>
             <div class="asideContents-area">
@@ -220,13 +224,13 @@
                         </ul>
                     </li>
                     <li class="category-item">
-                        <a href="" class="nav-box">해외 골프투어</a>   
+                        <a href="" class="nav-box">해외 골프투어</a>
                         <ul class="item-sub">
                             <li><a href="">골프</a></li>
                             <li><a href="">라운지</a></li>
                         </ul>
                     </li>
-                 
+
                 </ul>
                 <ul class="category-list">
                     <li class="category-item"><a href="" class="nav-box none">EVNET</a></li>
@@ -238,27 +242,29 @@
                             <li><a href="">센터회원 신청</a></li>
                             <li><a href="">전국 매장 안내</a></li>
                             <li><a href="">세탁 방법 안내</a></li>
-                        </ul></li>
+                        </ul>
+                    </li>
                     <li class="category-item"><a href="" class="nav-box">안다르 스토리</a>
                         <ul class="item-sub">
                             <li><a href="">안다르 매거진</a></li>
                             <li><a href="">브랜드 스토리</a></li>
-                        </ul></li>
+                        </ul>
+                    </li>
                 </ul>
                 <ul class="category-event">
                     <h3>이벤트</h3>
                     <li class="category-item">
                         <img src="./assets/img/event-01.jpg" alt="">
 
-                      <div>
-                          <a href="" class="item-box">
-                              <div class="text-wrap">
-                                  <strong>8주년 브랜드 페스티벌</strong>
-                                  <p>UP TO 80%부터 최대 33만원 혜택까지</p>
-                              </div>
-                          </a>
-                          <a href="" class="link-all">전체<i class="ri-arrow-right-line"></i></a>
-                      </div>
+                        <div>
+                            <a href="" class="item-box">
+                                <div class="text-wrap">
+                                    <strong>8주년 브랜드 페스티벌</strong>
+                                    <p>UP TO 80%부터 최대 33만원 혜택까지</p>
+                                </div>
+                            </a>
+                            <a href="" class="link-all">전체<i class="ri-arrow-right-line"></i></a>
+                        </div>
                     </li>
                     <li class="category-item">
                         <img src="./assets/img/event-02.jpg" alt="">
@@ -279,12 +285,13 @@
                     <a href="" class="link-store">전국매장안내</a>
                 </div>
             </div>
-      
+
         </div>
-        <div class="search-more" >
+        <div class="search-more">
             <a href="" class="prev"><i class="ri-arrow-left-s-line"></i></a>
             <div class="search-box">
-                <input type="text" placeholder="검색어를 입력해주세요." onfocus="this.placeholder=''" onblur="this.placeholder='검색어를 입력해주세요.'" >
+                <input type="text" placeholder="검색어를 입력해주세요." onfocus="this.placeholder=''"
+                    onblur="this.placeholder='검색어를 입력해주세요.'">
                 <a href="" class="search"><i class="ri-search-line"></i></a>
             </div>
         </div>
@@ -313,6 +320,7 @@
         </section>
         <section class="section-group group2">
             <div class="best-area">
+                <h2>BEST</h2>
                 <ul class="bestTab-wrap">
                     <li class="on">전체</li>
                     <li class="">우먼즈</li>
@@ -772,7 +780,7 @@
                 $('.allMenu-wrap').slideDown(300, function () {
                     $(this).css('display', 'flex')
                 })
-                
+
                 $('.btm-area').addClass('hide')
             })
             $('.tit-wrap i').click(function () {
@@ -784,7 +792,7 @@
 
             // 스크롤 이벤트에 있어서 새로고침시 사라지는문제 해결 
             curr = $(this).scrollTop();
-                // console.log(curr);
+            // console.log(curr);
             if (curr > 0) {
                 $('.hideTab-group').removeClass('hide')
             } else if (curr == 0) {
@@ -792,7 +800,7 @@
             }
 
             // 햄버거 메뉴 펼치기
-            $('.ico-ham').click(function(e){
+            $('.ico-ham').click(function (e) {
                 e.preventDefault();
                 $('.aside-group').addClass('on')
                 $('#mask').css('display', 'block')
@@ -800,39 +808,39 @@
 
 
             // 햄버거메뉴 닫기
-            $(document).click(function(e){
-                if ($('header').has(e.target).length == 0){
+            $(document).click(function (e) {
+                if ($('header').has(e.target).length == 0) {
                     $('.aside-group').removeClass('on')
                     $('#mask').css('display', 'none')
                 }
             })
 
-            $('.close').click(function(e){
+            $('.close').click(function (e) {
                 e.preventDefault()
-                    $('.aside-group').removeClass('on')
-                    $('#mask').css('display', 'none')
+                $('.aside-group').removeClass('on')
+                $('#mask').css('display', 'none')
             })
 
 
             // aside 아코디언 메뉴
 
-            $('.nav-box').click(function(e){
+            $('.nav-box').click(function (e) {
                 e.preventDefault();
-                if($(this).hasClass('on')){
+                if ($(this).hasClass('on')) {
                     $(this).removeClass('on').siblings('.item-sub').stop().slideUp();
-                }else{
+                } else {
                     $('.nav-box').removeClass('on').siblings('.item-sub').stop().slideUp();
                     $(this).addClass('on').siblings('.item-sub').stop().slideDown();
                 }
             })
 
             // search icon 클릭시 나타나는 화면
-            $('.ico-search').click(function(e){
+            $('.ico-search').click(function (e) {
                 e.preventDefault();
                 $('.search-more').addClass('on')
             })
 
-            $('.search-more .prev').click(function(e){
+            $('.search-more .prev').click(function (e) {
                 e.preventDefault();
                 $('.search-more').removeClass('on')
             })
