@@ -1,8 +1,13 @@
-.aside-group,.search-more{
+.search-more{
   display: none;
 }
 
 .section-group.group1{}
+
+.section-group.group1 .swiper-slide{
+  height: 85vh;
+}
+
 .section-group.group1 .text-area{
   position: absolute;
   left: 8%;
