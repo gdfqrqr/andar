@@ -404,3 +404,122 @@ header{
     top: 10px;
     right: 20px;
 }
+
+
+/* footer */
+
+footer{
+    background: #fafafa;
+    padding: 30px 16px 30px;
+}
+footer .top-area{}
+footer .top-area .logo{
+    width: 90px;
+}
+footer .top-area p{
+    color: #555;
+    line-height: 1.5;
+    margin: 10px 0 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+footer .callCenter-area{
+    margin-bottom: 20px;
+}
+footer .callCenter-area span{
+    font-size: 13px;
+    font-weight: 500;
+    color: #555;
+}
+footer .callCenter-area h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: #555;
+    margin: 5px 0 10px;
+}
+footer .callCenter-area p{
+    line-height: 1.5;
+    font-size: 13px;
+    font-weight: 300;
+    color: #555;
+}
+footer .sns-area{}
+footer .sns-area ul{
+    display: flex;
+    gap: 25px;
+}
+footer .sns-area li{
+}
+footer .sns-area li img {
+    height: 22px;
+
+}
+footer .corp-area{
+    margin: 12px 0;
+    font-size: 12px;
+    line-height: 1.7;
+    color: #777;
+    font-weight: bold;
+}
+footer .corp-area ul{
+    display: flex;
+    gap: 20px;
+}
+footer .corp-area li{
+    position: relative;
+}
+footer .corp-area li+li::before,
+footer .info-box li+li::before {
+    position: absolute;
+    left: -7px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 50%;
+    background: #ccc;
+    content: '';
+}
+footer .info-area{}
+footer .info-area .info-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+}
+footer .info-box li{
+    position: relative;
+    font-size: 11px;
+    font-weight: 400;
+    color: #777;
+}
+footer .info-area .mail-wrap {
+    font-size: 11px;
+    font-weight: 400;
+    color: #777;
+    line-height: 2;
+    margin: 5px 0 20px;
+}
+footer .mail-wrap li {}
+footer .copyright{
+    font-size: 11px;
+    color: #777;
+}
+footer .copyright strong{
+    font-weight: bold;
+}
+footer .certification{
+    margin-top: 20px;
+}
+footer .certification ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+footer .certification li{
+    width: 45px;
+}
+footer .certification li.sym{
+    width: 36px;
+}
+footer .certification li.kg{
+    width: 27px;
+}

@@ -306,4 +306,54 @@
   font-size: 20px;
   font-weight: 600;
 }
-.section-group.group7 .tit-wrap span{}
+.section-group.group7 .tit-wrap a{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.section-group.group7 .tit-wrap i{
+  color: #999;
+}
+.section-group.group8{
+  margin-top: 70px;
+}
+.section-group.group8 .membership-area{
+  background: url(../img/membership-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -15px;
+  height: 280px;
+  display: flex;
+  align-items: center;
+}
+.section-group.group8 a{
+  color: #fff;
+  padding: 0 20px; 
+}
+.section-group.group8 h3{
+  font-size: 26px;
+  font-weight: 700;
+}
+.section-group.group8 p{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 15px 0;
+}
+.section-group.group8 div{
+  border: 1px solid #fff;
+  padding: 8px 20px;
+  display: inline-block;
+}
+.section-group.group8 .store-area{
+  margin-top: 10px;
+  background: url(../img/store-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -15px;
+  height: 330px;
+  display: flex;
+  align-items: center;
+}
+
+/* main end  */
