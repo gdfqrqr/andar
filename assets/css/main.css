@@ -138,7 +138,7 @@
 }
 
 .section-group .discount .cost {
-  font-weight: 500;
+  font-weight: bold;
   color: #333;
   font-size: 15px;
 }
