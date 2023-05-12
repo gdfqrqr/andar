@@ -3,19 +3,21 @@
 
 @font-face {
     font-family: 'Gilroy';
-    src: url(../font/Gilroy-Light.ttf);
-    font-weight: lighter;
+    src: url(../font/Gilroy-Regular.woff2) format('woff2');
+    font-weight: 400;
 }
-
 @font-face {
     font-family: 'Gilroy';
-    src: url(../font/Gilroy-Regular.ttf);
-    font-weight: normal;
+    src: url(../font/Gilroy-Medium.woff2) format('woff2');
+    font-weight: 500;
 }
-
-
 @font-face {
     font-family: 'Gilroy';
-    src: url(../font/Gilroy-Bold.ttf);
-    font-weight: bold;
+    src: url(../font/Gilroy-SemiBold.woff2) format('woff2');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../font/Gilroy-Bold.woff2) format('woff2');
+    font-weight: 700;
 }

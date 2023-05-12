@@ -1,52 +1,23 @@
 /* 본문메인페이지 헤더,푸터도 포함될수도있다 */
 
-.blind {
-    position: absolute;
-    clip: rect(0 0 0 0);
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-}
+.blind { position: absolute; clip: rect(0 0 0 0); width: 1px; height: 1px; margin: -1px; overflow: hidden; } 
 
+.swiper { width: 100%; height: 100%; } 
+.swiper-slide { position: relative; } 
+.swiper-slide img { display: block; width: 100%; height: 100%; object-fit: cover; } 
 
-.swiper {
-    width: 100%;
-    height: 100%;
-}
+.new-dot { position: relative; } 
+.new-dot::after { position: absolute; margin: 0 3px; width: 6px; height: 6px; border-radius: 100%; background: #ee5728; content: ''; } 
 
-.swiper-slide {
-    position: relative;
-}
-
-.swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.new-dot {
-    position: relative;
-}
-
-.new-dot::after {
-    position: absolute;
-    margin: 0 3px;
-    width: 6px;
-    height: 6px;
-    border-radius: 100%;
-    background: #ee5728;
-    content: '';
-}
-
-#mask {
+.hidden {overflow: hidden;}
+.hidden .header::before{
     position: fixed;
-    top: 0;
     left: 0;
+    top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, .5);
+    background: #000;
     z-index: 4;
-    display: none;
+    content: '';
+    opacity: 0.5;
 }
