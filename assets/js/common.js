@@ -1,7 +1,7 @@
 $(function () {
 
     // 최상단 광고 swiper
-    var swiper = new Swiper(".group-ad", {
+    var swiper = new Swiper(".group-top", {
         effect: "fade",
         autoplay: {
             delay: 2500,
@@ -10,12 +10,12 @@ $(function () {
     });
 
     // 메인 비주얼 swiper
-    var swiper = new Swiper(".mySwiper2", {
+    var swiper = new Swiper(".visual-slide", {
         effect: "fade",
         loop: true,
-        // autoplay: {
-        //     delay: 3500,
-        // },
+        autoplay: {
+            delay: 3500,
+        },
         pagination: {
             el: ".pagination",
             clickable: true,
@@ -83,12 +83,12 @@ $(function () {
     // search icon 클릭시 나타나는 화면
     $('.btn-search').click(function (e) {
         e.preventDefault();
-        $('.search-more').addClass('on')
+        $('.popup-search').addClass('on')
     })
 
-    $('.search-more .btn-close').click(function (e) {
+    $('.popup-search .btn-close').click(function (e) {
         e.preventDefault();
-        $('.search-more').removeClass('on')
+        $('.popup-search').removeClass('on')
     })
 
 
