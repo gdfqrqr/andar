@@ -16,6 +16,7 @@
 
 /* 공통영역-상품 */
 .prd-list .link-prd .img-box { position: relative; } 
+.prd-list .img-box img{width: 100%; } 
 .prd-list .img-box .rank {  width: 25px; height: 24px; display: flex; justify-content: center; align-items: center; color: #fff; background: #000; font-weight: 400; } 
 .prd-list .img-box .new { width: 37px; height: 24px;  } 
 .prd-list .text-box { padding: 15px 5% 0; } 
