@@ -72,7 +72,7 @@
 /* 검색 팝업 */
 .popup-search { position: fixed; left: 0; top: 0; width: 100%; height: 100vh; background: url(../img/search-img.jpg); background-size: cover; background-repeat: no-repeat; z-index: 6; display: flex; align-items: center; justify-content: center; display: none; background-position: center; } 
 .popup-search.on { display: flex; } 
-.popup-search .btn-close { position: absolute; left: 10px; top: 10px; width: 10px; height: 18px; margin: 10px 4.17%; } 
+.popup-search .btn-close { position: absolute; left: 10px; top: 10px; width: 10px; height: 18px; margin: 10px  25px; } 
 .popup-search .search-box { width: 100%; padding: 0 50px; } 
 .popup-search .search-box fieldset { position: relative; border: 0; } 
 .popup-search .search-box input { width: 100%; border: none; background: none; border-bottom: 2px solid #fff; color: #fff; padding: 10px 20px 10px 0; font-size: 20px; } 

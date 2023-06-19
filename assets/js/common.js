@@ -108,4 +108,10 @@ $(function () {
     })
 
 
+    //최상단으로 이동
+    $( '.quick-item.up' ).click( function() {
+        $( 'html, body' ).animate( { scrollTop : 0 }, 400 );
+        return false;
+    } );
+
 })
