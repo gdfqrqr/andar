@@ -33,13 +33,13 @@ $(function () {
     // 스크롤시 헤더 변화
     $(window).scroll(function () {
         curr = $(this).scrollTop();
-        // console.log(curr);
         if (curr > 0) {
             $('.header-inner').addClass('fixed')
         } else {
             $('.header-inner').removeClass('fixed')
         }
     })
+
     $(window).trigger('scroll'); // 스크롤 강제 발생
 
     //스크롤시 변화한 헤더 내의 클릭 이벤트
@@ -62,7 +62,6 @@ $(function () {
         if ($('header').has(e.target).length == 0) {
             $('.side-nav').removeClass('on')
             $('body').removeClass('hidden')
-   
         }
     })
 
@@ -73,11 +72,10 @@ $(function () {
     })
 
 
-    // aside 아코디언 메뉴
+    // 아코디언 메뉴
     $('.nav-box').click(function (e) {
         e.preventDefault();
-        $(this).removeClass('on').siblings('.item-sub').stop().slideToggle();
-       
+        $(this).toggleClass('on').siblings('.item-sub').slideToggle();
     })
 
     // search icon 클릭시 나타나는 화면
